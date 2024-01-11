@@ -1,0 +1,165 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+nav{
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    list-style:none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-right: 20px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 600px;
+}
+
+.active{
+    color: red;
+}
+
+a:hover{
+    color: red;
+}
+
+.my-button{
+    background-color: red;
+    color: white;
+    font-weight: 600px;
+    padding: 9px 10px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+    .my-button:hover{
+        background-color:gray;
+        color: white;
+        
+    }
+
+    .content{
+        padding: 20px;
+        background-image: url(images/Rectangle1.png);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        color: white;
+    }
+
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .subtitle{
+        font-size: 24px;
+        font-weight: 600;
+
+    }
+    .about{
+        text-align: center;
+    }
+
+    h2{
+        font-size: 32px;  
+    }
+    
+    p{
+        font-size: 16px;
+    }
+
+    .under{
+        border-radius: 8px;
+        background: red;
+        width: 100px;
+        height: 6px;
+        flex-shrink: 0;
+        margin: 0 auto;
+    }
+    .title{
+        color: red;
+    }
+    .black{
+        color: black;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        gap: 20px;
+    }
+    .column{
+        padding: 20px;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 50px;
+        padding-right: 90px;
+        gap: 20px;
+    
+
+    }
+    .row a{
+        color: red;
+        
+        text-decoration: none
+        ;
+    }
+    .cont1{
+        text-align: center;
+    }
+
+    .content2{
+        background-color: darkorange;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+        align-items: center;
+    }
+    .cont3{
+margin: 50px;
+    }
+    .content3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .solutions{
+        display:flex;
+       align-items: center;
+       padding: 20px;
+    }
+    
+.goat{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.tunner{
+    width: 625px;
+    height: 190px;
+    padding: 10px 0px 0px 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.name, .phone{
+    display: flex;
+    margin-bottom: 20px;
+}
+
