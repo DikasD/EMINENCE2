@@ -2,7 +2,6 @@ body{
     font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif
 }
 nav{
     padding:20px;
@@ -162,4 +161,53 @@ margin: 50px;
     display: flex;
     margin-bottom: 20px;
 }
+.content4{
+    background-color: black;
+}
 
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+.links{
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+.links a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.images img{
+    margin-bottom: 20px;
+}
+.photo{
+    margin-right: 90px;
+}
+.email{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+/*Responsive layout for screens 768px and above*/
+@media only screen and (min-width: 768px) {
+    pap{
+        display:none;
+        padding: 20px;
+    }
+}
